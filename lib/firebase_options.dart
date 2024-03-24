@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBW6HaIS0ZbZc-fCUC8Z_76j_qTUsCZQwQ',
-    appId: '1:613252489615:web:f6e9451d411c2238fbebfa',
-    messagingSenderId: '613252489615',
-    projectId: 'fir-7a941',
-    authDomain: 'fir-7a941.firebaseapp.com',
-    storageBucket: 'fir-7a941.appspot.com',
-    measurementId: 'G-5X9RM1Y5Y7',
+    apiKey: 'AIzaSyAWGUe3srre1xronQjlZTrdVGfytIH49BA',
+    appId: '1:55199907770:web:626f8225d4091f612ae783',
+    messagingSenderId: '55199907770',
+    projectId: 'garbage-management-2222a',
+    authDomain: 'garbage-management-2222a.firebaseapp.com',
+    storageBucket: 'garbage-management-2222a.appspot.com',
+    measurementId: 'G-CBJW4KGF7Z',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBdMZxQ4pDchcZhrLveTe2hGqofRRTEVxg',
-    appId: '1:613252489615:android:33eb11190d8fc33dfbebfa',
-    messagingSenderId: '613252489615',
-    projectId: 'fir-7a941',
-    storageBucket: 'fir-7a941.appspot.com',
+    apiKey: 'AIzaSyA9CxuO3l4-PqHk2TBXF4ab_MHkEq-yPtA',
+    appId: '1:55199907770:android:ecc9035a6c2c61872ae783',
+    messagingSenderId: '55199907770',
+    projectId: 'garbage-management-2222a',
+    storageBucket: 'garbage-management-2222a.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDqFdblmdholBBDICLZzQEiJBmUyZhR7-k',
-    appId: '1:613252489615:ios:e4775a0b9281aed8fbebfa',
-    messagingSenderId: '613252489615',
-    projectId: 'fir-7a941',
-    storageBucket: 'fir-7a941.appspot.com',
+    apiKey: 'AIzaSyA9DJwhNlpSUUhYJGLX3sJNbPqFQBoTLHQ',
+    appId: '1:55199907770:ios:52d3bebf9a84993d2ae783',
+    messagingSenderId: '55199907770',
+    projectId: 'garbage-management-2222a',
+    storageBucket: 'garbage-management-2222a.appspot.com',
     iosBundleId: 'com.example.firebase',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDqFdblmdholBBDICLZzQEiJBmUyZhR7-k',
-    appId: '1:613252489615:ios:895c705a9cfab74efbebfa',
-    messagingSenderId: '613252489615',
-    projectId: 'fir-7a941',
-    storageBucket: 'fir-7a941.appspot.com',
+    apiKey: 'AIzaSyA9DJwhNlpSUUhYJGLX3sJNbPqFQBoTLHQ',
+    appId: '1:55199907770:ios:a980cd9bb36516582ae783',
+    messagingSenderId: '55199907770',
+    projectId: 'garbage-management-2222a',
+    storageBucket: 'garbage-management-2222a.appspot.com',
     iosBundleId: 'com.example.firebase.RunnerTests',
   );
 }
