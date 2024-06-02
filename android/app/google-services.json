@@ -1,32 +1,14 @@
 {
   "project_info": {
-    "project_number": "55199907770",
-    "project_id": "garbage-management-2222a",
-    "storage_bucket": "garbage-management-2222a.appspot.com"
+    "project_number": "613165082148",
+    "firebase_url": "https://grabage-8447d-default-rtdb.firebaseio.com",
+    "project_id": "grabage-8447d",
+    "storage_bucket": "grabage-8447d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:55199907770:android:7baf939524c5b7e12ae783",
-        "android_client_info": {
-          "package_name": "com.example.demo"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA9CxuO3l4-PqHk2TBXF4ab_MHkEq-yPtA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:55199907770:android:ecc9035a6c2c61872ae783",
+        "mobilesdk_app_id": "1:613165082148:android:295c95b93c9af7141a5ab1",
         "android_client_info": {
           "package_name": "com.example.firebase"
         }
@@ -34,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA9CxuO3l4-PqHk2TBXF4ab_MHkEq-yPtA"
+          "current_key": "AIzaSyC8srVoWQP0azcjk94tT8eiheLwcyo9sak"
         }
       ],
       "services": {
@@ -45,15 +27,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:55199907770:android:020655f8f5f8fe942ae783",
+        "mobilesdk_app_id": "1:613165082148:android:72d1f38808254cec1a5ab1",
         "android_client_info": {
-          "package_name": "com.garbagemanagement.login"
+          "package_name": "com.example.newproject"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA9CxuO3l4-PqHk2TBXF4ab_MHkEq-yPtA"
+          "current_key": "AIzaSyC8srVoWQP0azcjk94tT8eiheLwcyo9sak"
         }
       ],
       "services": {

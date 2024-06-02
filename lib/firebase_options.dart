@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,38 +41,54 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAWGUe3srre1xronQjlZTrdVGfytIH49BA',
-    appId: '1:55199907770:web:626f8225d4091f612ae783',
-    messagingSenderId: '55199907770',
-    projectId: 'garbage-management-2222a',
-    authDomain: 'garbage-management-2222a.firebaseapp.com',
-    storageBucket: 'garbage-management-2222a.appspot.com',
-    measurementId: 'G-CBJW4KGF7Z',
+    apiKey: 'AIzaSyCIN-pQoCyvJuAIXs9OhuwyU-88xwsj2oM',
+    appId: '1:613165082148:web:8f505e2bf9cf627c1a5ab1',
+    messagingSenderId: '613165082148',
+    projectId: 'grabage-8447d',
+    authDomain: 'grabage-8447d.firebaseapp.com',
+    databaseURL: 'https://grabage-8447d-default-rtdb.firebaseio.com',
+    storageBucket: 'grabage-8447d.appspot.com',
+    measurementId: 'G-M2Y1YB2R34',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA9CxuO3l4-PqHk2TBXF4ab_MHkEq-yPtA',
-    appId: '1:55199907770:android:ecc9035a6c2c61872ae783',
-    messagingSenderId: '55199907770',
-    projectId: 'garbage-management-2222a',
-    storageBucket: 'garbage-management-2222a.appspot.com',
+    apiKey: 'AIzaSyC8srVoWQP0azcjk94tT8eiheLwcyo9sak',
+    appId: '1:613165082148:android:295c95b93c9af7141a5ab1',
+    messagingSenderId: '613165082148',
+    projectId: 'grabage-8447d',
+    databaseURL: 'https://grabage-8447d-default-rtdb.firebaseio.com',
+    storageBucket: 'grabage-8447d.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA9DJwhNlpSUUhYJGLX3sJNbPqFQBoTLHQ',
-    appId: '1:55199907770:ios:52d3bebf9a84993d2ae783',
-    messagingSenderId: '55199907770',
-    projectId: 'garbage-management-2222a',
-    storageBucket: 'garbage-management-2222a.appspot.com',
+    apiKey: 'AIzaSyCoOwec7R0AqeQsxrcPonYho26eK0CaeNk',
+    appId: '1:613165082148:ios:0786d4b3864c35801a5ab1',
+    messagingSenderId: '613165082148',
+    projectId: 'grabage-8447d',
+    databaseURL: 'https://grabage-8447d-default-rtdb.firebaseio.com',
+    storageBucket: 'grabage-8447d.appspot.com',
     iosBundleId: 'com.example.firebase',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyA9DJwhNlpSUUhYJGLX3sJNbPqFQBoTLHQ',
-    appId: '1:55199907770:ios:a980cd9bb36516582ae783',
-    messagingSenderId: '55199907770',
-    projectId: 'garbage-management-2222a',
-    storageBucket: 'garbage-management-2222a.appspot.com',
-    iosBundleId: 'com.example.firebase.RunnerTests',
+    apiKey: 'AIzaSyCoOwec7R0AqeQsxrcPonYho26eK0CaeNk',
+    appId: '1:613165082148:ios:0786d4b3864c35801a5ab1',
+    messagingSenderId: '613165082148',
+    projectId: 'grabage-8447d',
+    databaseURL: 'https://grabage-8447d-default-rtdb.firebaseio.com',
+    storageBucket: 'grabage-8447d.appspot.com',
+    iosBundleId: 'com.example.firebase',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCIN-pQoCyvJuAIXs9OhuwyU-88xwsj2oM',
+    appId: '1:613165082148:web:10d9a8ead52ec65c1a5ab1',
+    messagingSenderId: '613165082148',
+    projectId: 'grabage-8447d',
+    authDomain: 'grabage-8447d.firebaseapp.com',
+    databaseURL: 'https://grabage-8447d-default-rtdb.firebaseio.com',
+    storageBucket: 'grabage-8447d.appspot.com',
+    measurementId: 'G-ZJ9Y39CTCT',
+  );
+
 }
